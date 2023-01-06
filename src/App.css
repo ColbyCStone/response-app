@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: 300px;
+}
+
+button {
+  border: 2px solid transparent;
+  outline: none;
+  font-weight: bold;
+  
+}
+
+button:hover {
+  background-color: #3e4451;
+  color: #ffffff
+}
+
+
+button:active {
+  background-color: #3e4451;
+  color: #ffffff
 }
